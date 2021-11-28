@@ -111,7 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #15191c;
-  width: 75vw;
+  width: 60vw;
   height: 100vh;
 
   position: absolute;
@@ -254,7 +254,7 @@ body {
   padding: 16px;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 8px;
+  gap: 12px;
 }
 
 .cartao__destaque {
