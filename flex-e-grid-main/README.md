@@ -3,9 +3,9 @@
 ## Criação de um app para Skatetistas :v:
 
 ### Listas não ordenadas
-- Versão Mobile e WEB
+- Versão Mobile
     - Vídeos
     - Localização de Picos pertos
-    - Pots
+    - Vendas
 
 > Status do Projeto: Em desenvolvimento :warning:
