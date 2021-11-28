@@ -1,4 +1,4 @@
-# Creat APP 
+# Create APP 
 
 ## Criação de um app para Skatetistas :v:
 
