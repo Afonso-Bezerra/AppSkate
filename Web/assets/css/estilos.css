@@ -60,7 +60,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .cabecalho {
-    background-color: #1d232a;
+    background-color: #15191c;
     display: grid;
     column-gap: 32px;
     grid-template-columns: 1fr auto;
@@ -94,7 +94,7 @@ body {
     display: block;
     width: 32px;
     height: 32px;
-    background-image: url(../img/profile_2.png);
+    background-image: url(../img/profile_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
