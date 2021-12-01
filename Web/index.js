@@ -6,3 +6,6 @@ botaomenu.addEventListener('click', () =>{
     menu.classList.toggle('menu-lateral--ativo')
 })
 
+function gopico(){
+    window.location = "./picos.html"
+}
