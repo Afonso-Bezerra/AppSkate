@@ -156,13 +156,46 @@
   }
 
  .texto{
-     display: grid;
-     font-size: 16px;
+     display: flex;
+     font-size: 16.2px;
      justify-content:space-evenly;
-     line-height: 32px;
+     line-height: 36px;
      color: #e7e6e6cb;
      text-align:start;
-     padding: 8px 16px;
+     padding: 8px 20px;
+ }
+ .img{
+   width: 100vw;
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr;   
+ }
+ 
+ .img--destaque{
+  margin-bottom: 16px;
+}
+
+ .mapa--local{
+  width: 90%;
+  height: 340px;
+  grid-column: span 2;
+  justify-self: center;
+  border-radius: 15px;
+ }
+
+ .img--local{
+  width: 90%;
+  height: 200px;
+  grid-column: span 2;
+  justify-self: center;
+  border-radius: 15px;
+ }
+ .img2--local{
+  width: 90%;
+  height: 250px;
+  grid-column: span 2;
+  justify-self: center;
+  border-radius: 15px;
  }
 
 
