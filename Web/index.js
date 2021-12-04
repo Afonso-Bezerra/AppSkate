@@ -9,3 +9,7 @@ botaomenu.addEventListener('click', () =>{
 function gopico(){
     window.location = "./picos.html"
 }
+
+function govideo(){
+    window.location = "./video.html"
+}

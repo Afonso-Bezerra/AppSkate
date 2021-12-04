@@ -8,26 +8,21 @@
   src: url(../fontawesome-free-5.15.4-desktop/otfs/Font_Awesome_5_Free-Solid-900.otf);
 }
 
+
 body {
   background-color: #1d232a;
   font-family: "Open Sans", "icones", "icon", sans-serif;
   color: #ffffff;
-  transition: all 0.5s;
+ 
 }
 
-.body-claro {
-  background-color: #ffffff;
-  transition: all 0.5s;
-}
+
+
 
 @media screen and (min-width: 1440px) {
   body {
     display: grid;
     grid-template-columns: auto 1fr;
-  }
-  .body-claro {
-    background-color: #ffffff;
-    transition: all 0.5s;
   }
 }
 
@@ -244,7 +239,21 @@ body {
   border-radius: 15px;
   overflow: hidden;
   background-color: #2c343a;
+  animation: fade 1s ease-in-out;
 }
+
+@keyframes fade {
+  from {
+   opacity: 0;
+   margin-top: 10%;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
 
 .cartao--destaque {
   margin-bottom: 16px;

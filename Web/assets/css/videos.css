@@ -3,8 +3,6 @@
     src: url(../font/icones.ttf);
   }
 
-  
-
   body{
       background-color: #1d232a;
       font-family: "Open Sans", "icones", sans-serif;
@@ -191,7 +189,7 @@
   }
   .mapa--local--desk{
     display: block;
-    width: 800px;
+    width: 790px;
     height: 480px;
     border-radius: 15px;
   }
@@ -210,7 +208,6 @@
     justify-content: center;
     animation: fade 1s ease-in-out;
   }
-
   @keyframes fade {
     from {
      opacity: 0;
@@ -270,6 +267,7 @@
     font-size: 1.2rem;
     font-weight: 700;
     grid-column: span 2;
+
   }
 
   @media screen and (min-width:1440px){
@@ -461,8 +459,8 @@
   grid-row: 3;
 }
 
-.cartao__info--vizualizacao::before {
-  content: "\e90f";
+.cartao__info--minutos::before {
+  content: "\e90c";
   margin-right: 8px;
 }
 
@@ -485,8 +483,8 @@
 }
 
 
-.cartao__botao--local::before {
-  content: "\e909";
+.cartao__botao--assistir::before {
+  content: "\e90b";
   font-size: 24px;
 }
 
@@ -528,4 +526,8 @@
   .texto--mobile{
     display: none;
   }
+}
+
+p{
+    padding-top:10px ;
 }
