@@ -197,8 +197,11 @@
     border-radius: 15px;
   }
   .principal{
+    display: grid;
+    justify-items:stretch;
     margin-left: 30px;
   }
+  
 }
 
 .principal{
@@ -209,14 +212,25 @@
   }
 
   .principal2{
+    
     padding: 24px 16px;
     margin-right: 30px;
     display: grid;
     gap: 16px;
-    justify-content: center;
+    margin-right: 30px;
   }
 
+  
 
+@media screen and (min-width:1920px){
+  .principal{
+    margin-left: 50px;
+  }
+.principal-img{
+  width: 1200px;
+  height: 600px;
+}
+}
   
 .cartao__conteudo {
     padding: 16px;
@@ -229,7 +243,14 @@
   @media screen and (min-width:1440px){
     .cartao__conteudo{
       padding: 0;
+      grid-template-columns: auto 1fr;
+      width: 790px;
       gap:30px;
+    }
+  }
+  @media screen and (min-width:1920px){
+    .cartao__conteudo{
+      width: 1200px;
     }
   }
   
@@ -254,6 +275,10 @@
     .cartao__conteudo{
       font-size: 1.17rem;
     }
+    .perfil-vizu{
+      justify-self: flex-end;
+    }
+   
   }
   
   .cartao__info {
@@ -292,14 +317,17 @@
      width: 800px;
      padding: 0;
    }
-  
+ }
+ @media screen and (min-width:1920px){
+   .texto{
+     width: 1200px;
+   }
  }
 
  .img{
    display: grid;
    grid-template-columns: 1fr 1fr;   
  }
-
  .mapa--local{
   width: 90%;
   height: 340px;
@@ -349,6 +377,11 @@
     box-sizing: border-box;
    }
  }
+ @media screen and (min-width:1920px){
+   .mapa--local--desk{
+     width: 1200px;
+   }
+ }
 
  .img2--local{
   width: 90%;
@@ -357,7 +390,20 @@
   justify-self: center;
   border-radius: 15px;
  }
-
+ @media screen and (min-width:1920px){
+   .img-desk{
+     width: 1200px;
+   }
+   .img--local-desk1{
+     width: 685px;
+   }
+   .img--local-desk2{
+     width: 500px;
+   }
+   .principal2{
+     margin-right: 50px;
+   }  
+  }
 
  .secao {
   display: none;
@@ -400,7 +446,7 @@
 }
 .cartao__info-lista{
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
 }
 
 .cartao__info--vizualizacao::before {
@@ -456,4 +502,17 @@
   grid-area: principal2
 }
 
+}
+
+.texto--desk{
+  display: none;
+}
+
+@media screen and (min-width:1440px){
+  .texto--desk{
+    display: block;
+  }
+  .texto--mobile{
+    display: none;
+  }
 }
