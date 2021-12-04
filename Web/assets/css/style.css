@@ -174,7 +174,7 @@ body {
 .principal{
   padding: 24px 16px;
   display: grid;
-  gap: 16px;
+  gap: 8px;
 }
 
 .titulo-pagina{
@@ -328,8 +328,6 @@ body {
   content: "\e90f";
   margin-right: 8px;
 }
-
-
 
 .cartao__botao {
   display: flex;
