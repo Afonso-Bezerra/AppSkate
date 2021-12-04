@@ -7,10 +7,5 @@
     - Vídeos;
     - Localização de Picos pertos;
     - Publcações;
-    
-## Tabela de conteúdos
-=================
-<!--ts-->
-   * [Como usar](#como-usar)
-<!--te-->
+   
 > Status do Projeto: Terminado :trophy:
